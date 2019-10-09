@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <title>IOT</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<style>
+  h1 {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+button {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+div {
+  background-color:#777;
+}
+
+p {
+  font-size: 18px;
+}
+</style>
+<body>
+  <div>
+    <center>
+      <h1>IOT Switch</h1><br/>
+      <!-- <label for="Status" id="status"></label><br/> -->
+      <p id="status" >Switch Device</p><br/>
+      <!-- <input name="status" id="status" value=" " disabled=""> -->
+      <button id="on">ON</button>
+      <button id="off">OFF</button>
+    </center>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="browserMqtt.js"></script>
+    <script src="controller.js"></script>
+</html>
